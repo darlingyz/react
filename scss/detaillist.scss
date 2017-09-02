@@ -1,0 +1,108 @@
+@import "./main.scss";
+body{
+      overflow-y: auto;
+       &::-webkit-scrollbar{
+    display:none;
+}
+
+}
+#Listheader{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: #f1f1f1;
+    text-align: center;
+   #List_retuen{
+        width: 10%;
+        float: left;
+    }
+    .title_Detail{
+        width: 75%;
+        float: left;
+    }
+    #Return_icon{
+        width: 15%;
+        float: left;
+    }
+}
+#Listcontent{
+  width: 100%;
+
+  p{
+      width: 100%;
+      font-size: 0.6rem;
+      line-height: 1.6rem;
+      background:#595971;
+      color: #fff;
+      text-indent:2%;
+  }  
+  .listHeader{
+      width: 100%;
+      display: flex;
+      background: #fff;
+      li{
+          flex: 1;
+          text-align: center;
+          border-top: 1px solid #eee;
+          border-left: 1px solid #eee;
+          border-bottom:  1px solid #eee;
+          height: 2rem;
+          line-height: 2rem;
+          font-size: 0.6rem;
+          span{
+              color: #e1e1e1;
+              margin-right: 3%;
+          }
+      }
+  }
+ .otherList{
+     width: 100%;
+     border-bottom:  1px solid #eee;
+    li{
+       width: 50%;
+       height: 15rem;
+       float: left;
+       border-top:1px solid #eee;
+       border-left: 1px solid #eee;
+       box-sizing: border-box;
+       background: #fff;
+         font-size: 0.6rem;
+         position: relative;
+       img{
+           height: 80%;
+       }
+      .bandName{
+            width: 90%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-left: 2%;
+       }
+     
+     i{
+       font-style: inherit;
+        float: left;  
+        margin-left: 2%;  
+        display: block;
+        margin-top: 1%;  
+     }
+     .vipprice{
+         font-size: 1.0rem;
+        font-size: 700;
+        float: left;
+     }  
+     .marketprice{
+        font-style: inherit;
+        color: #ccc;
+        text-decoration: line-through;
+     }
+     #cart{
+        position: absolute;
+        bottom: 0.3rem;
+        right: 1rem;
+        font-size: 1.2rem;
+        color: #f00;
+     }
+    }
+ }   
+}

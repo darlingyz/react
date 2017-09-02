@@ -1,0 +1,126 @@
+@import "./main.scss";
+#cart01_Header{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: #fbfbfb;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    #cart01_return{
+        width: 10%; 
+        float: left; 
+        font-size: 1.0rem;   
+    }
+    .cart01_box{
+        width: 75%;
+        float: left;
+    }
+}
+#cart01_Content{
+    width: 94%;
+    margin-top: 3%;
+    background: #fff;
+    padding: 0 3%;
+    font-size: 0.6rem;
+    color: #666;
+    .logoname{
+        border-bottom: 1px solid #ccc;
+       line-height: 2rem;
+    }
+  #pro{
+       width: 100%;
+       height: auto;
+  .carListCon{
+            width:100;
+            height: 6rem;
+            padding: 3% 0;
+            border-bottom: 1px dashed #ccc; 
+            position: relative;
+            color:#555;           
+            .cart01_left{
+                width: 30%;
+                height: 6rem;            
+                float: left;
+                img{
+                    display: block;
+                    width: 80%;
+                    height: 100%;         
+                }
+            }
+            .cart01_right{
+                width: 70%;
+                height: 6rem;         
+                float:left;               
+                strong{
+                    font-weight: 600;
+                    float: left;
+                    line-height: 1.2rem;
+                    margin-right: 2%;
+                }
+                p{                   
+                    line-height: 1.2rem;
+                }
+                .reduce,.plus{
+                    width: 8%;
+                    height: 0.6rem;
+                    line-height: 0.6rem;
+                    text-align: center;
+                    display: inline-block;
+                    padding: 2%;
+                    border: 1px solid #ccc;
+                }
+                .pronum{
+                     width: 8%;
+                    height: 0.6rem;
+                    line-height: 0.6rem;
+                    text-align: center;
+                    display: inline-block;
+                    padding: 2%;
+                     border-top: 1px solid #ccc;
+                     border-bottom: 1px solid #ccc;
+                }
+                .del{
+                    position: absolute;
+                    right: 10%;
+                    bottom: 10%;
+                    font-size: 2rem;
+                    color: #ccc;
+                    font-weight: 100;
+                    
+                }
+            }
+        }
+    }
+}
+.payfor{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    position: fixed;
+    bottom: 0;
+    background:#fff;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    .total-left{
+        width: 30%;
+        float: left;
+        font-size: 0.6rem;
+        p{
+            b{
+                font-weight: 100;
+            }
+            span{
+             color: #fc1158;   
+            }
+        }
+    }
+    .total-right{
+        width:30%;
+        float: right;
+        background: #fc1158;
+        color: #fff;       
+        font-size:0.6rem ;      
+    }
+}

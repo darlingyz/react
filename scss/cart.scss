@@ -1,0 +1,50 @@
+@import "./main.scss";
+
+#cart_Header{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: #fbfbfb;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    #cart_icon{
+        width: 10%; 
+        float: left; 
+        font-size: 1.0rem;   
+    }
+    .cart_header{
+        width: 75%;
+        float: left;
+    }
+}
+#cart_Content{
+    width: 100%;
+    .cartcont{
+        margin-top: 10%;
+        img{
+            width: 20%;
+            height: 20%;
+            margin-left:40%;
+            margin-bottom: 10%;
+        }
+        p{
+            width: 80%;
+            font-size: 0.6rem;
+            margin-left: 10%;
+            line-height: 1.6rem;
+            color: #888;
+            text-align: center;
+        }						
+        .coress{
+            width: 30%;
+            padding:2% 0;
+            background: #ff5890;
+            color: #fff;
+            text-align: center;
+            font-size: 0.6rem;            
+            margin: 5% auto;
+        }
+    }
+}

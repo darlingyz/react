@@ -1,0 +1,266 @@
+@import "./main.scss";
+html, body {
+        position: relative;
+        height: 100%;
+        background: #f9f9f9;
+}  
+    img{   
+            width: 100%; 
+            height: 100%;
+            display: block;
+        }
+        li{
+            list-style: none;
+        }
+    #header{
+        display: flex;
+        text-align: center;
+        line-height: 2.8rem;
+        background: #fc1158;
+       h1,#head_Rigist{
+           flex: 1;
+       }
+       .head_Search{
+           width: 60%;
+           height: 1.8rem;
+           line-height: 1.8rem;
+           background: #ca0e46;
+           border-radius:0.5rem ;
+           margin-top: 2%;
+           span{
+               font-size: 0.9rem;
+               font-weight: 100;
+               color: #f9f9f9;
+           }
+       }
+    }
+ #content{
+     position: relative;
+        .swiper-container {
+        width: 100%;
+        height: 7.5rem;      
+    }
+    .swiper-slide {
+        width: 100%;              
+    }
+    #list{
+        width: 100%;  
+        height: 18%;
+        background: #fff;        
+        ul{
+        width: 100%; 
+        margin-top: 1%;  
+        li{
+        width: 25%; 
+        float: left;
+          img{            
+              margin: 0 auto;
+          }      
+        }       
+       }       
+    }
+    .imgs{
+       width: 100%;
+       margin-top: 2%;       
+    }
+    .imgcart{
+         width: 100%;
+       margin-top: 2%;
+       img{         
+           border: none;
+       } 
+    }
+    .lunbo{        
+        overflow: hidden;
+        background: #fff;
+    .swiper-Container {
+        width: 100%;
+        height: 100%;
+        margin-left: 2%;
+    }
+    .swiper-slide {
+        text-align: center;
+         -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;  
+        margin-top:2%;                
+    }
+   }
+   .proList{
+       width: 94%;
+       background: #fff;       
+       padding: 3%;
+       margin-top: 2%;
+       border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+       img{
+           margin: 2% auto;
+       }
+   }
+   .feng_go{
+       width: 100%;
+       position: relative;
+        margin-top: 3%;
+        overflow: hidden;  
+        p{
+            text-align: center;
+            font-size:0.8rem;
+            line-height: 2rem;
+            color: #666;
+        }
+        .swiper-Lunbo{
+            width: 100%;
+            height: 12.2rem;
+            margin-top: 2%;         
+        .swiper-wrapper{                    
+          border-top:1px solid #eee;                          
+        .swiper-slide{
+            border-bottom: 1px solid #eee;
+            float: left;
+            td{
+                width: 33.3%;
+                float: left;
+                border-left: 1px solid #eee;
+                border-top: 1px solid #eee;
+                box-sizing: border-box;                
+           }          
+       } 
+     }        
+   } 
+   .swiper-Pagination{
+       position: absolute;
+       left:45%;
+       bottom: 5%;
+       z-index: 1;
+   }   
+ }
+ .product_List{
+     width: 100%;
+     height: 12rem;  
+     margin-top: 10px;
+     p{
+        text-align: center;
+        font-size: 0.8rem;
+        line-height:1.6rem;
+        
+     }
+    li{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    span{
+                font-size: 0.8rem;
+                line-height: 1.6rem;
+                display: block;
+                margin-left: 3%;
+                color: #666;
+            }
+        .swiper-containers{
+            width: 100%;
+            height: 100%;          
+        
+        .swiper-wrappers{
+            width: 250%;           
+            overflow: hidden;       
+       .swiper-slide{
+            width: 10%;
+            float: left;
+            background: #fff;
+            img{
+                width: 80%;
+                height: 80%;
+                margin: 0 auto;                
+            }
+            i{
+                font-style: inherit;  
+                font-size: 0.8rem;
+                color: #555;
+            }
+            p{
+                margin: 0 auto;
+                text-align: center;
+                line-height: 1.8rem;
+                em{
+                   font-style: inherit;  
+                   font-size: 0.8rem;
+                   color: #555; 
+                }
+            }           
+        }
+     }
+   }
+ .daylists{
+    width: 100%;
+    margin-top: 2%;
+    h1{
+      font-weight: 100;
+      font-size: 0.8rem;
+      color: #666;
+      line-height: 1.6rem;
+      text-align: center;
+    }
+    li{
+        width: 50%;
+        height: 15rem;
+        float: left;
+        border-top: 1px solid #eee;
+        border-left: 1px solid #eee;
+        box-sizing: border-box;
+        background: #fff;
+        position: relative;
+       img{
+           width: 100%;
+           height: 80%;
+       }     
+       i{
+          font-style: inherit;
+          margin-left: 5%;
+         float: left;
+         line-height:1.6rem;
+       }
+       span{
+            font-weight: 900;
+          font-size: 1.0rem;
+       }      
+    }
+     strong{
+           font-weight: 100;
+            width: 8rem;
+            display: block;
+            margin-left: 5%;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+           font-size: 0.8rem;
+       }
+       .iconfont{
+         color: #f00;
+         font-size: 1.5rem;
+         position: absolute;
+         right: 3%;
+         bottom:3%;
+         
+       }
+  } 
+ }
+}
+#toTop{
+    font-size: 1.0rem;
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    width: 2em;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background: #666;
+    color: #fff;
+    border-radius:50%;
+    z-index: 2;
+}

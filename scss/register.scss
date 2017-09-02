@@ -1,0 +1,83 @@
+@import "./main.scss";
+body{
+    width: 100%;
+    overflow-y: auto;
+    &::-webkit-scrollbar{
+    display:none;
+    }
+}
+#register_Header{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;   
+    background: #eee;  
+    text-align: center; 
+    border-bottom: 1px solid #bbb;      
+    #icon_Regis{
+        width: 10%;
+        float: left;
+    }
+    .regis_Regis{
+        width: 75%;
+        float: left;
+    }
+    .ichome_Regis{
+        width: 15%;
+        float: left;
+    }        
+}
+#reginstr_Content{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 8%;
+    .regist_Box{
+       width: 100%;
+       position: relative;
+    .Btn_regis,.Btn_Login{
+            width: 90%;
+            height: 2rem;
+            outline: none; 
+            border: 1px solid #ccc;  
+            background: #fff;   
+            font-size: 0.8rem;
+            margin: 0 auto;
+    input{
+            border: none;
+            outline: none;
+            margin-top: 4%;
+            text-indent:0.5rem;
+            width: 100%;
+        }        
+     }  
+    .Btn_Login{
+          margin-top: -1px; 
+       }
+    }
+   .check_Box{
+       margin:4% 2% 0 4%;
+   } 
+   span{
+       font-size: 0.6rem;
+   }
+   #handle{
+       display: block;
+       width: 90%;
+       height: 2.5rem;
+       margin: 0 auto;
+       background:#fc1158;
+       outline: none;
+       border: none;
+       margin-top: 4%;
+       color: #fff;
+       font-size: 0.8rem;
+   } 
+}
+.free,.forget{
+       font-size: 0.6rem;
+       font-weight: 100;
+       color: #40a5dc;
+       float: right;
+       margin-right:5%;
+       margin-top: 4%;
+   }
+  

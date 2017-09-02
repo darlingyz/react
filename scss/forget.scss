@@ -1,0 +1,53 @@
+@import "./main.scss";
+body{
+    width: 100%;
+    overflow-y: auto;
+    &::-webkit-scrollbar{
+    display:none;
+    }
+}
+#for_Header{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    background: #fafafa;
+    border-bottom: 1px solid #ccc;
+    span{
+        width: 10%;
+        float: left;
+    }    
+    .titie{
+        width:75%; 
+        font-size: 1.0rem;
+        color: #666;
+        float: left;
+    }
+    
+}   
+ #forget_content{
+     width: 100%;
+     margin-top: 8%;
+     .zhuce{
+         width: 95%;
+         margin-left: 5%;
+         #uerId{
+            width: 65%;
+            height: 2.5rem;
+            text-indent: 0.6rem;
+            box-sizing: border-box;
+            outline: none;
+         }
+         #btn{
+            width: 30%;
+            height: 2.5rem;
+            outline: none;
+            border: none;
+            font-size: 0.8rem;
+            color: #fff;
+            background: #f00;
+         }
+     }
+ }   
+
+

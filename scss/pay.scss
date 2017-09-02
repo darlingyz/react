@@ -1,0 +1,145 @@
+#payheader{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: #fefefe;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.8rem;
+    #pay_icon{
+        width: 10%;
+        float: left;
+    }
+    .pay_All{
+        width: 75%;
+        float: left;
+    }
+}
+#payContent{
+    width: 100%;
+    padding: 2% 0;
+    margin-top: 2%;
+    .address{
+        width: 100%;
+        border-top:1px solid #ccc;
+        background: #fff;
+        padding: 2% 0 0 0;
+        p{
+            line-height: 1.6rem;
+            font-size: 0.6rem;
+            text-indent: 2%;
+        }
+        ul{
+          font-size: 0.6rem;
+          width: 100%;
+          border-bottom: 1px solid #ccc;
+          padding: 3% 0;
+          line-height: 1.6rem;
+      .pay_name{
+        width: 40%;
+        float: left;
+        text-align: center;           
+        }
+        .pay_phone{            
+            width: 60%;
+            float: right;
+            text-align: center;
+        }
+        .pay_adds{
+            width: 100%;
+            text-indent: 10%;
+        }
+       
+       }
+       .moreAdds{
+            text-align: center;
+            line-height: 1.6rem;
+            font-size: 0.6rem;
+            color: #ccc;
+            padding: 2% 0;
+            border-bottom: 1px solid #ccc;
+        } 
+          
+    }
+     
+}
+.paystyle{
+         margin-top: 2%;
+         width: 100%;
+          background: #fff; 
+        .styles{
+            font-size: 0.8rem;
+            line-height: 1.6rem;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+             text-indent:3% ; 
+             padding: 4% 0;                      
+        } 
+        .fans,
+        .zhifu,
+        .fassts{
+            font-size: 0.8rem;
+            text-indent:3% ;
+            line-height: 1.6rem;
+            padding: 3% 0;
+        }
+       
+        .fassts{
+            border-bottom: 1px solid #ccc;
+        }
+         #fub{
+        color: #ff5890;
+         font-size: 1.5rem;
+         margin-right: 2%;
+        }
+        #icon_fan{
+           color: blue; 
+           font-size: 1.5rem;
+           margin-right: 2%;
+        }    
+ } 
+ .allPay{
+     width: 100%;
+    padding: 3% 0 0 0;
+    margin-top: 2%;
+    border-top: 1px solid #ccc;
+    background: #fff; 
+    p:nth-of-type(1){
+        font-size: 0.8rem;
+        
+    }
+    p{
+        width: 100%;
+        font-size: 0.6rem;
+        text-indent: 3%;
+        padding: 3% 0;
+        border-bottom: 1px solid #ccc;     
+    }
+ }
+ .payFooter{
+     width: 100%;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     background: #fff;
+     position: fixed;
+     bottom: 0;
+				
+     .payleft{
+        float: left;
+        width: 30%;
+        text-align: center;
+       
+        p{
+           float: left;
+            
+        }
+     }
+     .payRight{
+         width: 30%;
+         float: right;
+         text-align: center;
+         background: #ff5890;
+         color: #fff;
+    
+     }
+ }
