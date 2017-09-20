@@ -32,7 +32,7 @@ render(){
 					<ul>
 						<li className="pay_name">你是谁</li>
 						<li className="pay_phone">18211111111</li>
-						<li className="pay_adds">河南省郑州市金水区河南教育学院</li>
+						<li className="pay_adds">河南省郑州市高新区</li>
 					</ul>
 					<div className="moreAdds">更多收货地址</div>
 				</div>
